@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(217, 54%, 11%) !important;
+}
+
+.card{
+    width: 310px !important;
+    background-color: hsl(216, 50%, 16%) !important;
+}
+
+.jules{
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.equilibrium:hover{
+    color: hsl(178, 100%, 50%) !important;
+}
+
+.text{
+    color: hsl(178, 100%, 50%) !important;
+}
+
+.icon{
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    opacity: 0;transition: .5s ease;
+    /* background-color: hsl(178, 100%, 50%) !important; */
+    transition: .5s ease;
+    color: hsl(178, 100%, 50%);
+}
+
+
+
+.container:hover .icon{
+    opacity: 1;
+}
+
+.container:hover .image{
+    filter: opacity(0.5) drop-shadow(0 0 hsl(178, 100%, 50%));
+    transform: .5s ease;
+}
